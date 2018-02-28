@@ -13,14 +13,14 @@ xgb_n_trees = 300
 #Please set following path accordingly
 
 #where we can find training, test, and sampleSubmission.csv
-raw_data_path = '/home/fast/2014_mobilectr/'
+raw_data_path = '/data/rogerru/test_model/avazu/data/'
 #where we store results -- require about 130GB
 tmp_data_path = './tmp_data/'
 
 #path to external binaries. Please see dependencies in the .pdf document
-fm_path = ' ~/Downloads/guestwalk/kaggle-2014-criteo/fm'
-xgb_path = '/home/zzhang/Downloads/xgboost/wrapper'
-vw_path = '~/vowpal_wabbit/vowpalwabbit/vw '
+fm_path = '/data/rogerru/test_model/kaggle-2014-criteo/'
+xgb_path = '/data/rogerru/test_model/xgboost/'
+vw_path = '/data/rogerru/test_model/vowpal_wabbit/vowpalwabbit/vw '
 
 
 try:
